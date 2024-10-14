@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "用户信息",
+  "navigationBarBackgroundColor": "#1296db",
+  "backgroundColorTop": "left",
+  "enablePullDownRefresh": true
+}

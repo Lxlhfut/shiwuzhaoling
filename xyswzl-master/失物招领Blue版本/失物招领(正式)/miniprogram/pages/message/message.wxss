@@ -1,0 +1,93 @@
+/* 公告 */
+.announcement-title{
+  display: flex;
+}
+.announcement-title .font{
+  margin-top: 66rpx;
+  margin-left: 20rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.announcement-title .img{
+  margin-left: 70rpx;
+  margin-top: 50rpx;  
+}
+.announcement-title .img image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.announcement-center{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 80%;
+  background-color: #fff;
+  padding: 20rpx;
+  border-radius: 50rpx;
+}
+.announcement-center .list{
+  display:flex;
+  margin: 30rpx;
+}
+.announcement-center .list .li{
+  background-color: #1296db;
+  border-radius: 50%;
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 10rpx;
+}
+.announcement-center .list .font{
+  margin-top: 5rpx;
+  margin-left: 25rpx;
+  width: 480rpx;
+}
+
+.input{
+  padding: 10rpx;
+  background-color: #fff;
+  height: 50rpx;
+  width: 95%;
+  border-radius: 50rpx;
+  margin: 0 auto;
+  border: 1rpx gray solid;
+  position: fixed;
+  bottom: 20rpx;
+  left: 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.input input{
+  width: 70%;
+  margin-left: 20rpx;
+  color: #212121;
+}
+.input .btn{
+  background-color:#1296db;
+  color: #fff;
+  border-top-right-radius: 35rpx;
+  border-bottom-right-radius: 35rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: -10rpx;
+  margin-right: -10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  
+}
+
+.me-about {
+  background-color: #fff;
+  /* 		margin: 20rpx 40rpx; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 20rpx 40rpx;
+  /* 		border-bottom: 2rpx solid rgb(238, 238, 238); */
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+}
+
+.me-about image {
+  align-self: center;
+  width: 35rpx;
+  height: 35rpx;
+}

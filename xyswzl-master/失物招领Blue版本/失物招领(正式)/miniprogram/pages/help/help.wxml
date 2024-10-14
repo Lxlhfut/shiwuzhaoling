@@ -1,0 +1,18 @@
+<view class="titleImg">
+  <image src="../../images/index-icon/title.png"></image>
+  <view class="font">帮助</view>
+</view>
+<view class="lineYellow"></view>
+
+<view class="content">
+  <view class="title">您可能遇到的问题1：</view>
+  <view class="font">关于您发布提示“请勿留空”的问题说明：在失物招领中，除了图片与个人信息之外，所有的选项和留空都需要填写完毕才可发布，程序并不会提示哪一项未选择，您可以留意失物招领发布页面中的“物品类型”是否选择，或者添加备注处是否已经填写信息。</view>
+
+  <view class="title">您可能遇到的问题2：</view>
+  <view class="font">关于您发布后一直显示“正在加载...”的状态问题：此问题可能是由于您上传的图片大于500KB导致的，您可以在相册中对其进行编辑，稍加剪切，或者使用手机自带的截图工具，将其截图后进行裁剪，本站推荐上传的图片为正方形，观赏效果更加。</view>
+
+  <view class="title">您可能遇到的问题3：</view>
+  <view class="font">关于您无法保存小程序图片的问题，此问题程序不会进行任何提示，是由于程序未授权等因素，小米手机可以进行长按识别保存图片，其他型号的手机可以利用截图，该问题正在进行修复，请耐心等候。</view>
+</view>
+
+<view class="botton" style="color: gray; margin-top: 50rpx;text-align: center;font-size: 26rpx;">——2021/09/25 项光杰 编辑——</view>

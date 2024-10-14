@@ -1,0 +1,15 @@
+<button open-type="contact" bindcontact="handleContact" style="width: 100%;">
+<view class="kf">
+  <image src="../../images/index-icon/title.png"></image>
+  <view class="userName">
+    <view>纺服小区客服</view>
+    <view style="font-size: 24rpx; color: gray;margin-top: 10rpx;">请点击我的聊天框，即可进入客服咨询页面</view>
+  </view>
+</view>
+</button>
+
+<!-- 版本更新公告 -->
+<!-- 
+<view class="version">
+
+</view> -->

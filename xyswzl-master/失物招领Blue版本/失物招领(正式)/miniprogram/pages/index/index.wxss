@@ -1,0 +1,149 @@
+
+/* 首行黄色背景+正式上线 */
+.headBg{
+  background-color: #1296db;
+  height: 400rpx;
+  border-bottom-right-radius: 80rpx;
+  border-bottom-left-radius: 80rpx;
+}
+
+.headBg .content{
+  background-color: #fff;
+  width: 90%;
+  height: 250rpx;
+  margin: 50rpx auto;
+  border-radius: 60rpx;
+}
+
+/* 轮播图Go */
+.title {
+  width: 100%;
+  height: 300rpx;
+}
+
+.title .swip {
+  box-shadow: 4rpx 4rpx 8rpx rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  height: 280rpx;
+  width: 650rpx;
+  margin-top: 10rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.title .swip image {
+  width: 100%;
+}
+/* 轮播图Over */
+
+
+/* 搜索框 */
+.search{
+  display: flex;
+  width: 90%;
+  background-color: #fff;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-top: -40rpx;
+  border-radius: 60rpx;
+}
+.search .img{
+  margin-top: 17rpx;
+  margin-left: 27rpx;
+}
+.search .img image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.search .input{
+  margin-top: 20rpx;
+  margin-left: 27rpx;
+  color: #b6b6b6;
+  font-size: 30rpx;
+}
+
+
+
+/* 发布和寻找 */
+.function{
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+.function .release{
+  width: 90%;
+  margin-top: 50rpx;
+  height: 240rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+}
+.function .img image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 30rpx;
+}
+.function .font{
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+}
+.function .list{
+  display: flex;
+}
+.function .list .button{
+  background-color: #1296db;
+  color: #fff;
+  width: 450rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  margin-top: 25rpx;
+}
+
+.content{
+  margin-top: 40rpx;
+}
+.content .it{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.content .it .head image{
+ width: 85rpx;
+ height: 85rpx;
+ border-radius: 50%;
+}
+.content .it .text .name{
+   text-align: center;
+   margin: 10rpx;
+   padding: 0 4px;
+   color: rgb(34, 173, 207);
+   font-weight: 400;
+   font-size: 27rpx;
+   border: rgb(34, 173, 207) 1px solid;
+   border-radius: 10rpx;
+}
+.content .it .text .div{
+  margin-left: 10rpx;
+   text-align: center;
+   color: rgba(204, 2, 2, 0.815);
+   font-size: 24rpx;
+   border: rgba(204, 2, 2, 0.815) 1px solid;
+   width: 130rpx;
+}
+.content .it .time{
+   color: #cdcdcd;
+   font-size: 20rpx;
+   margin-top: 30rpx;
+   margin-left: 250rpx;
+}
+
+.content .content-text{
+  margin: 0 auto;
+  padding: 10rpx;
+  margin-top: 10rpx;
+  width: 80%;
+  font-size: 26rpx;
+}

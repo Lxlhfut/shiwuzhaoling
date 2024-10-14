@@ -1,0 +1,68 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/getOpenId/index",
+        "pages/getMiniProgramCode/index",
+        "pages/deployService/index",
+        "pages/createCollection/index",
+        "pages/uploadFile/index",
+        "pages/selectRecord/index",
+        "pages/updateRecord/index",
+        "pages/updateRecordResult/index",
+        "pages/updateRecordSuccess/index",
+        "pages/sumRecord/index",
+        "pages/sumRecordResult/index",
+        "pages/user/user",
+        "pages/message/message",
+        "pages/updateInformation/updateInformation",
+        "pages/release/release",
+        "pages/thingList/thingList",
+        "pages/hall/hall",
+        "pages/hall/loseContent/loseContent",
+        "pages/hall/seekContent/seekContent",
+        "pages/updateInformation/updataCall/updataCall",
+        "pages/share/share",
+        "pages/help/help",
+        "pages/hall/seach/seach"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "云开发 QuickStart",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#9c9d9b",
+        "backgroundColor": "#fff",
+        "selectedColor": "#000",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/index-icon/index.png",
+                "selectedIconPath": "images/index-icon/index.png"
+            },
+            {
+                "pagePath": "pages/message/message",
+                "text": "消息",
+                "iconPath": "images/index-icon/message.png",
+                "selectedIconPath": "images/index-icon/message.png"
+            },
+            {
+                "pagePath": "pages/hall/hall",
+                "text": "大厅",
+                "iconPath": "images/index-icon/dating.png",
+                "selectedIconPath": "images/index-icon/dating.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "用户",
+                "iconPath": "images/index-icon/user.png",
+                "selectedIconPath": "images/index-icon/user.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

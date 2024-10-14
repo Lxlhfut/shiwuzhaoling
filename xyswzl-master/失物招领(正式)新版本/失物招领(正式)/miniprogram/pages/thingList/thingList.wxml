@@ -1,0 +1,84 @@
+<!-- 前往平台链接入口 -->
+<navigator url="../hall/hall">
+  <view class="urlBg">
+    <view class="image">
+      <image src="../../images/index-icon/release.png"></image>
+    </view>
+    <view class="font">点击前往失物招领中心</view>
+  </view>
+</navigator>
+
+<view class="title" style="display: flex;">
+  <view bindtap="index">
+    <view>我的发布</view>
+    <view class="{{index==0 ? 'line':''}}"></view>
+  </view>
+
+  <view style="margin-left: 100rpx;" bindtap="index">
+    <view>我的寻物</view>
+    <view class="{{index==1 ? 'line':''}}"></view>
+  </view>
+</view>
+
+<!-- 所有发布（选择了我的发布后的内容） -->
+<view wx:if="{{index==0}}">
+  <view class="thing" wx:for="{{list}}" data-index="{{index}}">
+    <view class="img">
+      <image src="data:image/png;base64,{{list[index].imageBase64}}" wx:if="{{list[index].imageBase64!=''}}"></image>
+      <image src="../../images/img/noImg.png" wx:if="{{list[index].imageBase64==''}}"></image>
+    </view>
+    <view class="item">
+      <view class="thingTitle">{{list[index].title}}</view>
+      <view class="item1">
+        <view class="On" wx:if="{{list[index].offOn==0}}">开启验证</view>
+        <view class="off" wx:if="{{list[index].offOn==1}}">无需验证</view>
+        <view class="icon">
+          <image src="../../images/index-icon/title.png"></image>
+        </view>
+        <view class="font">Hi~请注意隐私防范哦</view>
+      </view>
+      <view class="button">
+        <view class="upshot">{{list[index].upshot}}</view>
+        <view class="button1" bindtap="update" data-index="{{index}}" wx:if="{{list[index].upshot=='已认领'}}">
+          已认领 √
+        </view>
+        <view class="button2" bindtap="update" data-index="{{index}}" wx:if="{{list[index].upshot=='认领中'}}">
+          认领中 ×
+        </view>
+        <view class="image" bindtap="delete" data-index="{{index}}">
+          <image src="../../images/index-icon/delete.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 所有发布（选择了我的寻物后的内容） -->
+<view wx:if="{{index==1}}">
+  <view class="thing" wx:for="{{list1}}" data-index="{{index}}">
+    <view class="img">
+      <image src="data:image/png;base64,{{list1[index].seekImageBase64}}" wx:if="{{list1[index].seekImageBase64!=''}}"></image>
+      <image src="../../images/img/noImg.png" wx:if="{{list1[index].seekImageBase64==''}}"></image>
+    </view>
+    <view class="item">
+      <view class="thingTitle">{{list1[index].seekTitle}}</view>
+      <view class="item1">
+        <view class="On" wx:if="{{list1[index].callOrVx.indexOf('微信')!=-1}}">微信</view>
+        <view class="off" wx:if="{{list1[index].callOrVx.indexOf('电话')!=-1}}">电话</view>
+        <view class="icon">
+          <image src="../../images/index-icon/title.png"></image>
+        </view>
+        <view class="font">Hi~请注意隐私防范哦</view>
+      </view>
+      <view class="button">
+        <view class="upshot">{{list1[index].upshot}}</view>
+        <view class="button1" bindtap="update1" data-index="{{index}}" wx:if="{{list1[index].upshot=='丢失'}}">
+          确认寻回 √
+        </view>
+        <view class="image" bindtap="delete1" data-index="{{index}}">
+          <image src="../../images/index-icon/delete.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
